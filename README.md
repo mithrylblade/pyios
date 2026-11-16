@@ -171,8 +171,7 @@ If you use `pyios` (or the R port `rios`) in your work, please cite the software
 [`CITATION.cff`](CITATION.cff).
 
 > Moolla S. (2026). *pyios: Reference equations for impulse oscillometry* (Version 0.1.0)
-> [Computer software]. https://github.com/mithrylblade/pyios
-> *(DOI to be added: Zenodo DOI `10.5281/zenodo.XXXXXXX` &ndash; placeholder)*
+> [Computer software]. https://github.com/mithrylblade/pyios. [doi:10.5281/zenodo.24292238](https://doi.org/doi:10.5281/zenodo.24292238)
 
 BibTeX:
 
