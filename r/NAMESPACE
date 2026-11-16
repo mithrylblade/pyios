@@ -1,0 +1,5 @@
+export(OscillometryReference)
+export(available_equations)
+S3method(print, OscillometryReference)
+importFrom(utils, read.csv)
+importFrom(stats, setNames)

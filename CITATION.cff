@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below, and also cite the original reference-equation paper(s) you used (see references.bib)."
+type: software
+title: "pyios: Reference equations for impulse oscillometry"
+abstract: >-
+  pyios calculates predicted values, percent predicted, z-scores and lower/upper limits of
+  normal for impulse oscillometry (IOS) parameters using five published reference equation
+  sets (Moitra 2020, Oostveen 2013, Schulz 2013, Berger 2021, Gochicoa-Rangel 2023).
+  It provides a Python package (pyios) and an R port (rios) with identical behaviour.
+authors:
+  - family-names: Moolla
+    given-names: Saadiq
+    email: mithrylblade@gmail.com
+    orcid: "https://orcid.org/0000-0003-0274-6909"
+    affiliation: "Stellenbosch University"
+repository-code: "https://github.com/mithrylblade/pyios"
+url: "https://github.com/mithrylblade/pyios"
+license: MIT
+version: 0.1.0
+date-released: "2026-11-16"
+keywords:
+  - impulse oscillometry
+  - forced oscillation technique
+  - lung function
+  - reference equations
+  - respiratory physiology
+# doi: 10.5281/zenodo.XXXXXXX
+preferred-citation:
+  type: software
+  authors:
+    - family-names: Moolla
+      given-names: Saadiq
+      email: msmoolla@sun.ac.za
+  title: "pyios: Reference equations for impulse oscillometry"
+  version: 0.1.0
+  year: 2026
+  license: MIT
+  url: "https://github.com/mithrylblade/pyios"
+  repository-code: "https://github.com/mithrylblade/pyios"
+  # doi: 10.5281/zenodo.XXXXXXX

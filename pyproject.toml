@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyios"
+version = "0.1.0"
+description = "Reference equations for impulse oscillometry (IOS): predicted values, % predicted, z-scores and limits of normal."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Saadiq Moolla", email = "msmoolla@sun.ac.za"}]
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.21", "pandas>=1.3"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+keywords = ["impulse oscillometry", "IOS", "lung function", "reference equations", "respiratory"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+pyios = ["data/*.csv"]
+
+[project.urls]
+Homepage = "https://github.com/mithrylblade/pyios"
+Repository = "https://github.com/mithrylblade/pyios"
+Issues = "https://github.com/mithrylblade/pyios/issues"

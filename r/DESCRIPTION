@@ -1,0 +1,19 @@
+Package: rios
+Type: Package
+Title: Reference Equations for Impulse Oscillometry
+Version: 0.1.0
+Authors@R: c(
+    person("Saadiq", "Moolla", email = "msmoolla@sun.ac.za", role = c("aut", "cre")),
+    person("Stellenbosch University", role = "cph"))
+Description: Predicted values, percent predicted, z-scores and lower/upper limits of
+    normal for impulse oscillometry (IOS) parameters, using the published reference
+    equations of Moitra (2020), Oostveen (2013), Schulz (2013), Berger (2021) and
+    Gochicoa-Rangel (2023). R port of the 'pyios' Python package.
+License: MIT + file LICENSE
+URL: https://github.com/mithrylblade/pyios
+BugReports: https://github.com/mithrylblade/pyios/issues
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: utils, stats
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
