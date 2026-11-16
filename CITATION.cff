@@ -24,7 +24,7 @@ keywords:
   - lung function
   - reference equations
   - respiratory physiology
-# doi: 10.5281/zenodo.XXXXXXX
+doi: 10.5281/zenodo.24292238
 preferred-citation:
   type: software
   authors:
@@ -37,4 +37,4 @@ preferred-citation:
   license: MIT
   url: "https://github.com/mithrylblade/pyios"
   repository-code: "https://github.com/mithrylblade/pyios"
-  # doi: 10.5281/zenodo.XXXXXXX
+  doi: 10.5281/zenodo.24292238
